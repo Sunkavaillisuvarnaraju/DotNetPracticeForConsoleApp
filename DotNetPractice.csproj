@@ -34,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DotNetPractice.PerformingSumOperation</StartupObject>
+    <StartupObject>DotNetPractice.ConsoleClassExample</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Console.cs" />
+    <Compile Include="ConsoleClassExample.cs" />
     <Compile Include="PerformingSumOperation.cs" />
     <Compile Include="PrintingValuesExample.cs" />
     <Compile Include="Program.cs" />
