@@ -9,6 +9,15 @@ namespace DotNetPractice
 {
     internal class PrintingValuesExample
     {
+        public static void Main(string[] args)
+        {
+            int studentId = 101;
+            string sname = "Raju";
 
+            Console.WriteLine($"Student Id:{studentId }");
+            Console.WriteLine($"Student Name :{sname}");
+            Console.ReadLine();
+        }
+       
     }
 }
