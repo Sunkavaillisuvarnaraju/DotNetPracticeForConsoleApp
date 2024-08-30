@@ -3,6 +3,7 @@ namespace DotNetPractice
 {
     internal class StudentDetails
     {
+
         static void Main(string[] args)
         {
             //Ask the user to Enter Student Details
@@ -29,6 +30,9 @@ namespace DotNetPractice
             Console.WriteLine($"Total Marks : {TotalMarks}");
             Console.WriteLine($"Average Mark: {AverageMark}");
             Console.ReadKey();
+
+            
+
         }
     }
 }
