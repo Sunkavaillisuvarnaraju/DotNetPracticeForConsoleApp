@@ -5,6 +5,10 @@ VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetPractice", "DotNetPractice.csproj", "{5C4214E3-D408-4DB1-B710-AB0B7BC52E33}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicalProramming", "..\LogicalProramming\LogicalProramming.csproj", "{6EBC1C3A-D9FF-413F-A37B-9C5EB4E2D0D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractionExample", "..\AbstractionExample\AbstractionExample.csproj", "{C17D5EFD-5F2B-47F3-A8D4-E28F275AC18E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{5C4214E3-D408-4DB1-B710-AB0B7BC52E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C4214E3-D408-4DB1-B710-AB0B7BC52E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C4214E3-D408-4DB1-B710-AB0B7BC52E33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EBC1C3A-D9FF-413F-A37B-9C5EB4E2D0D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EBC1C3A-D9FF-413F-A37B-9C5EB4E2D0D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EBC1C3A-D9FF-413F-A37B-9C5EB4E2D0D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EBC1C3A-D9FF-413F-A37B-9C5EB4E2D0D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C17D5EFD-5F2B-47F3-A8D4-E28F275AC18E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C17D5EFD-5F2B-47F3-A8D4-E28F275AC18E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C17D5EFD-5F2B-47F3-A8D4-E28F275AC18E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C17D5EFD-5F2B-47F3-A8D4-E28F275AC18E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
