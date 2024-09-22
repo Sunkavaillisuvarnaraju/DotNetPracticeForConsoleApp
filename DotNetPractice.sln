@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicalProramming", "..\Log
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractionExample", "..\AbstractionExample\AbstractionExample.csproj", "{C17D5EFD-5F2B-47F3-A8D4-E28F275AC18E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThreading", "..\MultiThreading\MultiThreading.csproj", "{6A969C30-D275-47C6-BE3E-74F56E7853B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C17D5EFD-5F2B-47F3-A8D4-E28F275AC18E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C17D5EFD-5F2B-47F3-A8D4-E28F275AC18E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C17D5EFD-5F2B-47F3-A8D4-E28F275AC18E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A969C30-D275-47C6-BE3E-74F56E7853B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A969C30-D275-47C6-BE3E-74F56E7853B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A969C30-D275-47C6-BE3E-74F56E7853B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A969C30-D275-47C6-BE3E-74F56E7853B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
