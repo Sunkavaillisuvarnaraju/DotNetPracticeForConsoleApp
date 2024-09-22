@@ -34,7 +34,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DotNetPractice.StudentDetails</StartupObject>
     <StartupObject>DotNetPractice.EmployeeProperty</StartupObject>
   </PropertyGroup>
   <ItemGroup>
