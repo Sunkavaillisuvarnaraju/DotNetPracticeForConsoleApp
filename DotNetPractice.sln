@@ -5,6 +5,10 @@ VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetPractice", "DotNetPractice.csproj", "{5C4214E3-D408-4DB1-B710-AB0B7BC52E33}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MultiThreadingE", "MultiThreadingE", "{C8B00639-69FC-421B-AEB7-C860379FF0FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThreadingExamples", "MultiThreadingExamples\MultiThreadingExamples.csproj", "{123FC8AA-7B2F-44F2-B596-7BC96DDEE91F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{5C4214E3-D408-4DB1-B710-AB0B7BC52E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C4214E3-D408-4DB1-B710-AB0B7BC52E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C4214E3-D408-4DB1-B710-AB0B7BC52E33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{123FC8AA-7B2F-44F2-B596-7BC96DDEE91F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{123FC8AA-7B2F-44F2-B596-7BC96DDEE91F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{123FC8AA-7B2F-44F2-B596-7BC96DDEE91F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{123FC8AA-7B2F-44F2-B596-7BC96DDEE91F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{123FC8AA-7B2F-44F2-B596-7BC96DDEE91F} = {C8B00639-69FC-421B-AEB7-C860379FF0FD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E785740D-2B9D-4104-B9A7-334AAFAE847C}
