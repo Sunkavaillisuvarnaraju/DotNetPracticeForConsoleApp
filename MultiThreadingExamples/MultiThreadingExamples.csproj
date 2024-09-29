@@ -51,8 +51,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RealtimeExample.cs" />
     <Compile Include="SingleThreadDrawBackExample.cs" />
-    <Compile Include="ThreadParamerterExample.cs" />
-    <Compile Include="ThreadStartExample.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
