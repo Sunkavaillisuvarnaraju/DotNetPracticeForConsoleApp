@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MultiThreadAdvExam[ple.cs" />
-    <Compile Include="Numberhelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RealtimeExample.cs" />
