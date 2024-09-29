@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MultiThreadingExamples.RealtimeExample</StartupObject>
+    <StartupObject>MultiThreading.ThreadParamerterExample</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
