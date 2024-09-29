@@ -33,7 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MultiThreadingExamples.RealTimeSync</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +50,7 @@
     <Compile Include="JoinMethodExample.cs" />
     <Compile Include="JoinMethodExample2.cs" />
     <Compile Include="JoinMethodExample3.cs" />
+    <Compile Include="LockExample.cs" />
     <Compile Include="MultiThreadAdvExam[ple.cs" />
     <Compile Include="NumberHelper.cs" />
     <Compile Include="Program.cs" />
