@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ThreadingDemo.RetunTypeThreading</StartupObject>
+    <StartupObject>MultiThreadingExamples.RealTimeSync</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BookMyShow.cs" />
     <Compile Include="IsAlivePropertyExample.cs" />
     <Compile Include="JoinMethodExample.cs" />
     <Compile Include="JoinMethodExample2.cs" />
@@ -55,8 +56,11 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RealtimeExample.cs" />
+    <Compile Include="RealTimeSync.cs" />
     <Compile Include="RetunTypeThreading.cs" />
     <Compile Include="SingleThreadDrawBackExample.cs" />
+    <Compile Include="SyncronizationExample.cs" />
+    <Compile Include="SyncronizationExample2.cs" />
     <Compile Include="ThreadParamerterExample.cs" />
     <Compile Include="ThreadStartExample.cs" />
     <Compile Include="TypeSafeExample.cs" />
