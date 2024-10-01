@@ -25,6 +25,8 @@ namespace MultiThreadingExamples
 
             Console.WriteLine(count);
             Console.ReadLine();
+            Console.ReadLine();
+            Console.ReadKey();
 
         }
 
