@@ -52,6 +52,7 @@
     <Compile Include="CalculatorProperties.cs" />
     <Compile Include="CommonDemo.cs" />
     <Compile Include="Console.cs" />
+    <Compile Include="ConsoleApp1.cs" />
     <Compile Include="ConsoleClassExample.cs" />
     <Compile Include="DelegateExample.cs" />
     <Compile Include="Demo.cs" />
