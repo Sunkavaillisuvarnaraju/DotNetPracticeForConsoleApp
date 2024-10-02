@@ -56,6 +56,7 @@
     <Compile Include="LockExample.cs" />
     <Compile Include="MonitorExample.cs" />
     <Compile Include="MultiThreadAdvExam[ple.cs" />
+    <Compile Include="MultiThreadingSampleApp.cs" />
     <Compile Include="NumberHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
