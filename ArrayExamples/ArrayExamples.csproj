@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{123FC8AA-7B2F-44F2-B596-7BC96DDEE91F}</ProjectGuid>
+    <ProjectGuid>{C053F854-4739-434E-9C84-6DF0D0453A02}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MultiThreadingExamples</RootNamespace>
-    <AssemblyName>MultiThreadingExamples</AssemblyName>
+    <RootNamespace>ArrayExamples</RootNamespace>
+    <AssemblyName>ArrayExamples</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,9 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-  </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>MultiThreadingExamples.MonitorExample</StartupObject>
+    <StartupObject>ArrayExamples.ArrayExample3</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,26 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BookMyShow.cs" />
-    <Compile Include="IsAlivePropertyExample.cs" />
-    <Compile Include="JoinMethodExample.cs" />
-    <Compile Include="JoinMethodExample2.cs" />
-    <Compile Include="JoinMethodExample3.cs" />
-    <Compile Include="LockExample.cs" />
-    <Compile Include="MonitorExample.cs" />
-    <Compile Include="MultiThreadAdvExam[ple.cs" />
-    <Compile Include="NumberHelper.cs" />
+    <Compile Include="ArrayExample2.cs" />
+    <Compile Include="ArrayExample3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RealtimeExample.cs" />
-    <Compile Include="RealTimeSync.cs" />
-    <Compile Include="RetunTypeThreading.cs" />
-    <Compile Include="SingleThreadDrawBackExample.cs" />
-    <Compile Include="SyncronizationExample.cs" />
-    <Compile Include="SyncronizationExample2.cs" />
-    <Compile Include="ThreadParamerterExample.cs" />
-    <Compile Include="ThreadStartExample.cs" />
-    <Compile Include="TypeSafeExample.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
