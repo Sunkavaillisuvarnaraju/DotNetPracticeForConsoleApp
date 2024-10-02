@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MultiThreadingE", "MultiThr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThreadingExamples", "MultiThreadingExamples\MultiThreadingExamples.csproj", "{123FC8AA-7B2F-44F2-B596-7BC96DDEE91F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{3F7AF6D2-BDF1-45F8-9631-591FD874D04C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayExamples", "ArrayExamples\ArrayExamples.csproj", "{C053F854-4739-434E-9C84-6DF0D0453A02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +27,17 @@ Global
 		{123FC8AA-7B2F-44F2-B596-7BC96DDEE91F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{123FC8AA-7B2F-44F2-B596-7BC96DDEE91F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{123FC8AA-7B2F-44F2-B596-7BC96DDEE91F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C053F854-4739-434E-9C84-6DF0D0453A02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C053F854-4739-434E-9C84-6DF0D0453A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C053F854-4739-434E-9C84-6DF0D0453A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C053F854-4739-434E-9C84-6DF0D0453A02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{123FC8AA-7B2F-44F2-B596-7BC96DDEE91F} = {C8B00639-69FC-421B-AEB7-C860379FF0FD}
+		{C053F854-4739-434E-9C84-6DF0D0453A02} = {3F7AF6D2-BDF1-45F8-9631-591FD874D04C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E785740D-2B9D-4104-B9A7-334AAFAE847C}

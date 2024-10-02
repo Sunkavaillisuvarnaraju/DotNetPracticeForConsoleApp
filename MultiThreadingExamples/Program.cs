@@ -16,6 +16,8 @@ namespace MultiThreadingExamples
             Console.WriteLine("Name of the Thread :"+t.Name);
             Console.WriteLine("Name of the current Thread :"+Thread.CurrentThread.Name);
             Console.ReadLine();
+            Console.ReadLine();
+            Console.WriteLine("");
         }
     }
 }
