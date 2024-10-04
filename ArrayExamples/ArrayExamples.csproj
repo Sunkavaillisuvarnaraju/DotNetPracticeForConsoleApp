@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ArrayExamples.ArrayExample3</StartupObject>
+    <StartupObject>ArrayExamples.TwoDimenssionalArray3</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,8 +48,13 @@
   <ItemGroup>
     <Compile Include="ArrayExample2.cs" />
     <Compile Include="ArrayExample3.cs" />
+    <Compile Include="ArrayExample4.cs" />
+    <Compile Include="JaggedArrayExample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TwoDimensionalArray.cs" />
+    <Compile Include="TwoDimensionalArray2.cs" />
+    <Compile Include="TwoDimenssionalArray3.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
