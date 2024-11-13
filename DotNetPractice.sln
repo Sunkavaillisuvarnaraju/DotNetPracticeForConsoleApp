@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{3F7AF6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayExamples", "ArrayExamples\ArrayExamples.csproj", "{C053F854-4739-434E-9C84-6DF0D0453A02}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinqQuery", "LinqQuery", "{5798DA34-97B6-4601-A110-802A786D2D9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{680611EB-1781-4E4A-90D6-87BACE4CE224}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +35,10 @@ Global
 		{C053F854-4739-434E-9C84-6DF0D0453A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C053F854-4739-434E-9C84-6DF0D0453A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C053F854-4739-434E-9C84-6DF0D0453A02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{680611EB-1781-4E4A-90D6-87BACE4CE224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{680611EB-1781-4E4A-90D6-87BACE4CE224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{680611EB-1781-4E4A-90D6-87BACE4CE224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{680611EB-1781-4E4A-90D6-87BACE4CE224}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +46,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{123FC8AA-7B2F-44F2-B596-7BC96DDEE91F} = {C8B00639-69FC-421B-AEB7-C860379FF0FD}
 		{C053F854-4739-434E-9C84-6DF0D0453A02} = {3F7AF6D2-BDF1-45F8-9631-591FD874D04C}
+		{680611EB-1781-4E4A-90D6-87BACE4CE224} = {5798DA34-97B6-4601-A110-802A786D2D9A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E785740D-2B9D-4104-B9A7-334AAFAE847C}
