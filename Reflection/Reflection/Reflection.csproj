@@ -4,15 +4,30 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5C4214E3-D408-4DB1-B710-AB0B7BC52E33}</ProjectGuid>
+    <ProjectGuid>{705B1A86-2266-4F94-9CC4-AA3F5A977F56}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DotNetPractice</RootNamespace>
-    <AssemblyName>DotNetPractice</AssemblyName>
+    <RootNamespace>Reflection</RootNamespace>
+    <AssemblyName>Reflection</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -34,7 +49,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DestructorDemo.Program</StartupObject>
+    <StartupObject>Reflection.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,35 +62,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractDemo.cs" />
-    <Compile Include="CalculatorMain.cs" />
-    <Compile Include="CalculatorProperties.cs" />
-    <Compile Include="CallByValue.cs" />
-    <Compile Include="CommonDemo.cs" />
-    <Compile Include="Console.cs" />
-    <Compile Include="ConsoleApp1.cs" />
-    <Compile Include="ConsoleClassExample.cs" />
-    <Compile Include="DelegateExample.cs" />
-    <Compile Include="Demo.cs" />
-    <Compile Include="EmployeeExampl.cs" />
-    <Compile Include="EmployeeProperty.cs" />
-    <Compile Include="PerformingSumOperation.cs" />
-    <Compile Include="PrintingValuesExample.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="PropertiesExample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReadingValuesExample.cs" />
-    <Compile Include="Sample.cs" />
-    <Compile Include="Singleton.cs" />
-    <Compile Include="StringConcatExample.cs" />
-    <Compile Include="Student.cs" />
-    <Compile Include="StudentDetails.cs" />
-    <Compile Include="UmmanagedResource.cs" />
-    <Compile Include="VariablesDemo.cs" />
-    <Compile Include="WriteLineMethodExample.cs" />
+    <Compile Include="SomeClass.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
