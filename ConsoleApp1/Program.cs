@@ -12,7 +12,7 @@ namespace ConsoleApp1
         {
                 //Step1: Data Source
                 List<int> integerList = new List<int>()
-            {
+        {
                 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
             };
                 //Step2: Query
@@ -22,10 +22,10 @@ namespace ConsoleApp1
                                   select obj; //Selection
                                               //Step3: Execution
                 foreach (var item in QuerySyntax)
-                {
+            {
                     Console.Write(item + " ");
-                }
-                Console.ReadKey();
             }
+                Console.ReadKey();
         }
+    }
 }

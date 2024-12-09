@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{680611EB-1781-4E4A-90D6-87BACE4CE224}</ProjectGuid>
+    <ProjectGuid>{4E2FAFD9-F670-4AAE-805E-60674D24947A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleApp1</RootNamespace>
-    <AssemblyName>ConsoleApp1</AssemblyName>
+    <RootNamespace>LogicalProgramming</RootNamespace>
+    <AssemblyName>LogicalProgramming</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,11 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.DataAdapterExample</StartupObject>
+    <StartupObject>LogicalProgramming.TestData</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -47,16 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataAdapterExample.cs" />
-    <Compile Include="DataDeletion.cs" />
-    <Compile Include="Datainserting.cs" />
-    <Compile Include="DataRetriving.cs" />
-    <Compile Include="ExecutenonQueryExample.cs" />
-    <Compile Include="ExecuteReaderExample.cs" />
-    <Compile Include="ExecuteScalarExample.cs" />
+    <Compile Include="DividingTwoNumbers.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SampleApp1.cs" />
+    <Compile Include="SumOfTwoNumbers.cs" />
+    <Compile Include="TestData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
