@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ArrayExamples.HashTableCreationDemo</StartupObject>
+    <StartupObject>ArrayExamples.ArrayCopyExample</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayCopyExample.cs" />
     <Compile Include="ArrayExample2.cs" />
     <Compile Include="ArrayExample3.cs" />
     <Compile Include="ArrayExample4.cs" />
@@ -56,8 +57,11 @@
     <Compile Include="HashTableCreationDemo.cs" />
     <Compile Include="HashTableExample.cs" />
     <Compile Include="JaggedArrayExample.cs" />
+    <Compile Include="PrintingArrayInReverseOrder.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StoringAccessingArrayElements.cs" />
+    <Compile Include="SumOfArrayElements.cs" />
     <Compile Include="TwoDimensionalArray.cs" />
     <Compile Include="TwoDimensionalArray2.cs" />
     <Compile Include="TwoDimenssionalArray3.cs" />
