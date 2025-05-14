@@ -30,13 +30,6 @@ namespace LogicalProgramming
 
         }
     }
-
-    public class C : InhertitanceExample ,B
-   {
-        public static void Main(string[] args)
-        {
-            C c = new C();
-            c.M1();
-        }
-    }
 }
+
+
