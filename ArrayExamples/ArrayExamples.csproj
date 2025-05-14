@@ -33,7 +33,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
+ ArraysLogicalProgramming
     <StartupObject>ArrayExamples.Exercise6</StartupObject>
+=======
+    <StartupObject>ArrayExamples.GenericConstraintExample</StartupObject>
+ develop
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -54,9 +58,19 @@
     <Compile Include="ArrayListExample2.cs" />
     <Compile Include="ArrayListExample3.cs" />
     <Compile Include="ArrayListRealTimeExample.cs" />
+ ArraysLogicalProgramming
     <Compile Include="DuplicateElements.cs" />
     <Compile Include="Exercise5.cs" />
     <Compile Include="Exercise6.cs" />
+=======
+    <Compile Include="GemericExamples.cs" />
+    <Compile Include="GenericConstraintExample.cs" />
+    <Compile Include="GenericExample.cs" />
+    <Compile Include="GenericExample2.cs" />
+    <Compile Include="GenericExample3.cs" />
+    <Compile Include="GenericfinalExample.cs" />
+    <Compile Include="GenericRealTimeExample.cs" />
+ develop
     <Compile Include="HashTableCreationDemo.cs" />
     <Compile Include="HashTableExample.cs" />
     <Compile Include="JaggedArrayExample.cs" />

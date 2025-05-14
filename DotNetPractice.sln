@@ -13,19 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{3F7AF6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayExamples", "ArrayExamples\ArrayExamples.csproj", "{C053F854-4739-434E-9C84-6DF0D0453A02}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ADOdotNet", "ADOdotNet", "{AC3EAF48-41DD-463D-97E9-7B1341843130}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinqQuery", "LinqQuery", "{5798DA34-97B6-4601-A110-802A786D2D9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{701CFE51-CDF0-4E16-9CE6-23164E86DDAE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqExamples", "LinqExamples\LinqExamples.csproj", "{68831D12-B3DF-448A-BB2B-8AD0C675EC98}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelProgramming", "ParallelProgramming\ParallelProgramming.csproj", "{447E57BE-47C0-4353-8F33-D965B1668DE9}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicalProgramming", "LogicalProgramming\LogicalProgramming\LogicalProgramming.csproj", "{4E2FAFD9-F670-4AAE-805E-60674D24947A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection\Reflection.csproj", "{705B1A86-2266-4F94-9CC4-AA3F5A977F56}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{DD75115B-6220-4AAC-AFC3-88E75D988028}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{680611EB-1781-4E4A-90D6-87BACE4CE224}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopsProject", "OOPSProject\OopsProject\OopsProject.csproj", "{4ACE13BB-D664-457E-AB09-9D7B6FF256E3}"
 EndProject
@@ -49,6 +39,7 @@ Global
 		{C053F854-4739-434E-9C84-6DF0D0453A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C053F854-4739-434E-9C84-6DF0D0453A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C053F854-4739-434E-9C84-6DF0D0453A02}.Release|Any CPU.Build.0 = Release|Any CPU
+
 		{701CFE51-CDF0-4E16-9CE6-23164E86DDAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{701CFE51-CDF0-4E16-9CE6-23164E86DDAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{701CFE51-CDF0-4E16-9CE6-23164E86DDAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -81,6 +72,12 @@ Global
 		{4E555F7F-5EBB-4154-BE83-7E4EB5BFAAAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E555F7F-5EBB-4154-BE83-7E4EB5BFAAAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E555F7F-5EBB-4154-BE83-7E4EB5BFAAAD}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{680611EB-1781-4E4A-90D6-87BACE4CE224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{680611EB-1781-4E4A-90D6-87BACE4CE224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{680611EB-1781-4E4A-90D6-87BACE4CE224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{680611EB-1781-4E4A-90D6-87BACE4CE224}.Release|Any CPU.Build.0 = Release|Any CPU
+
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,7 +85,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{123FC8AA-7B2F-44F2-B596-7BC96DDEE91F} = {C8B00639-69FC-421B-AEB7-C860379FF0FD}
 		{C053F854-4739-434E-9C84-6DF0D0453A02} = {3F7AF6D2-BDF1-45F8-9631-591FD874D04C}
-		{701CFE51-CDF0-4E16-9CE6-23164E86DDAE} = {AC3EAF48-41DD-463D-97E9-7B1341843130}
+		{680611EB-1781-4E4A-90D6-87BACE4CE224} = {5798DA34-97B6-4601-A110-802A786D2D9A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E785740D-2B9D-4104-B9A7-334AAFAE847C}

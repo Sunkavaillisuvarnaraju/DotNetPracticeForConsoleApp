@@ -2,42 +2,30 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Data.SqlClient;
+using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            new Program().CreateTable();
-            Console.ReadKey();  
-        }
-        public void CreateTable()
+                //Step1: Data Source
+                List<int> integerList = new List<int>()
         {
-            SqlConnection con = null;
-            try
+                1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+            };
+                //Step2: Query
+                //LINQ Query using Query Syntax to fetch all numbers which are > 5
+                var QuerySyntax = from obj in integerList //Data Source
+                                  where obj > 5 //Condition
+                                  select obj; //Selection
+                                              //Step3: Execution
+                foreach (var item in QuerySyntax)
             {
-                con = new SqlConnection(@"data source =NANIS; database=Student; Integrated security = SSPI ");
-
-                SqlCommand cm = new SqlCommand("create table Laptop(cid int not null, name varchar(100), email varchar(50))", con);
-
-               // SqlCommand cm1 = new SqlCommand("create table SBI(id int not null, name varchar(100), email varchar(50), join_date date)", con);
-
-                con.Open();
-
-                cm.ExecuteNonQuery();
-
-                Console.WriteLine("Table created sucessfully");
+                    Console.Write(item + " ");
             }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Something went wrong{ex.Message}");
-            }
-            finally
-            {
-                con.Close();
-            }
+                Console.ReadKey();
         }
     }
 }
