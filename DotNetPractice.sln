@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{DD75115B-6220-4AAC-AFC3-88E75D988028}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopsProject", "OOPSProject\OopsProject\OopsProject.csproj", "{4ACE13BB-D664-457E-AB09-9D7B6FF256E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncapsulationProject", "..\Dot Net RealTime\C# Projects\OOPS Project\Encapsulation\EncapsulationProject\EncapsulationProject.csproj", "{4E555F7F-5EBB-4154-BE83-7E4EB5BFAAAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{DD75115B-6220-4AAC-AFC3-88E75D988028}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD75115B-6220-4AAC-AFC3-88E75D988028}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD75115B-6220-4AAC-AFC3-88E75D988028}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ACE13BB-D664-457E-AB09-9D7B6FF256E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ACE13BB-D664-457E-AB09-9D7B6FF256E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ACE13BB-D664-457E-AB09-9D7B6FF256E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ACE13BB-D664-457E-AB09-9D7B6FF256E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E555F7F-5EBB-4154-BE83-7E4EB5BFAAAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E555F7F-5EBB-4154-BE83-7E4EB5BFAAAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E555F7F-5EBB-4154-BE83-7E4EB5BFAAAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E555F7F-5EBB-4154-BE83-7E4EB5BFAAAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
