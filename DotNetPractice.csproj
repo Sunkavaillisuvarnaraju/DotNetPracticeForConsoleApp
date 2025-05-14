@@ -34,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DestructorDemo.Program</StartupObject>
+    <StartupObject>DotNetPractice.StringReverse</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,6 +50,7 @@
     <Compile Include="AbstractDemo.cs" />
     <Compile Include="CalculatorMain.cs" />
     <Compile Include="CalculatorProperties.cs" />
+    <Compile Include="CallbackExample.cs" />
     <Compile Include="CallByValue.cs" />
     <Compile Include="CommonDemo.cs" />
     <Compile Include="Console.cs" />
@@ -68,6 +69,7 @@
     <Compile Include="Sample.cs" />
     <Compile Include="Singleton.cs" />
     <Compile Include="StringConcatExample.cs" />
+    <Compile Include="StringReverse.cs" />
     <Compile Include="Student.cs" />
     <Compile Include="StudentDetails.cs" />
     <Compile Include="UmmanagedResource.cs" />

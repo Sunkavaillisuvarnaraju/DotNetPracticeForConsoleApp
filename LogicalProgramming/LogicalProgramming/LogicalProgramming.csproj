@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LogicalProgramming.StringExample1</StartupObject>
+    <StartupObject>LogicalProgramming.B</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,11 +47,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DividingTwoNumbers.cs" />
+    <Compile Include="InhertitanceExample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringExample.cs" />
     <Compile Include="StringExample1.cs" />
     <Compile Include="SumOfTwoNumbers.cs" />
+    <Compile Include="SwapExample.cs" />
     <Compile Include="SwappingOfTwoNumbers.cs" />
     <Compile Include="TestData.cs" />
   </ItemGroup>
